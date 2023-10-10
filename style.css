@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main {
+  background-color: rgba(208, 208, 208, 0.454);
+  padding: 2rem;
+}
+
+.all-bars {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.single-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.single-bar .vote-count {
+  width: 8rem;
+}
+
+.single-bar .bar {
+  position: relative;
+  flex-grow: 1;
+  height: 1rem;
+  background-color: rgb(194, 194, 194);
+  border-radius: 2rem;
+}
+
+.single-bar .percentage {
+  width: 1.5rem;
+}
+
+.single-bar .cover-bar {
+  position: absolute;
+  height: 1rem;
+  background-color: orange;
+  border-radius: 2rem;
+}
